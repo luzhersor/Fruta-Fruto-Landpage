@@ -140,19 +140,26 @@
     </div>
   </main>
 
+  <footer class="bg-secondary py-3">
+    <p class="text-light text-center">Contactenos:<a class="text-light text-decoration-none" href="mailto:luzhs@gmail.com"> luzhs@gmail.com</a></p>
+    <p class="text-light text-center"> Desarrollado por Luz Ma. Sor</p>
+
+
+  </footer>
 
 <!-- Modal -->
-<div class="modal fade" id="modal-contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <dialog class="modal-content">
-      <div class="modal-header">
+<div class="modal fade" id="modal-contacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <header class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Contactenos</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
+      </header>
+    
       <div class="modal-body">
-        <form>
+        
           <div class="form-group">
             <label for="nombre">Nombre</label>
             <input type="text" class="form-control" id="nombre" placeholder="Informe su nombre">
@@ -167,16 +174,14 @@
             <label for="comentario">Comentarios</label>
             <textarea class="form-control" id="mensaje" rows="3" placeholder="Comentarios"></textarea>
           </div>
-        </form>
-      </div>
+        
+        </div>
       <footer class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
         <button type="button" class="btn-color-especial">Enviar</button>
       </footer>
-    </dialog>
   </div>
 </div>
-  <p>Contactenos:<a href="mailto:luzhs@gmail.com">luzhs@gmail.com</a></p>
 
   <script src=""></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
