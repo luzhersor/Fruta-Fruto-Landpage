@@ -1,0 +1,15 @@
+/*  .navbar{
+    position: fixed;
+    top: 0;
+} 
+Para que el Navbar se mantenga fijo arriba 
+*/
+.titulo-carrusel {
+    font-family: 'Pacifico', cursive;
+}
+
+.imagen-carrusel{
+    height: 400px;
+    object-fit: cover;
+    object-position: 0 80%;
+}
